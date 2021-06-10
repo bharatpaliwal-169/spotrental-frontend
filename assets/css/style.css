@@ -95,7 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo {
-  margin: 15px;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 #hero .hero-logo img {
@@ -477,6 +478,8 @@ section {
 
 #about .about-img {
   overflow: hidden;
+  height: 480px;
+  align-items: center;
 }
 
 #about .about-img img {
@@ -570,7 +573,7 @@ section {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/site-photos/pic-2.jpeg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
