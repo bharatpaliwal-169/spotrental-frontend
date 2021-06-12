@@ -539,15 +539,15 @@ section {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  /* background: #03C4EB; */
   border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #03C4EB;
+  /* transition: 0.5s; */
+  /* border: 1px solid #ccf5fd; */
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
 }
 
 #services .service-icon i {
@@ -557,7 +557,8 @@ section {
 }
 
 #services .service-item:hover .service-icon {
-  background: #fff;
+  background: transparent;
+  border: none;
 }
 
 #services .service-item:hover .service-icon i {
