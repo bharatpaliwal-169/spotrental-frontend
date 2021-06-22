@@ -80,6 +80,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
+
+/* #myVideo {
+  position:relative;
+  right: 0;
+  bottom: 0;
+  width: 100% ; 
+  min-height: 100vh; 
+  opacity: 0.8;
+} */
 #hero {
   display: table;
   width: 100%;
@@ -548,6 +557,7 @@ section {
   justify-content: center;
   width: 80px;
   height: 80px;
+  margin-right: 1.5rem;
 }
 
 #services .service-icon i {
@@ -788,4 +798,40 @@ section {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+
+/* design btn and scrollbar  */
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: darkgrey; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(114, 114, 114); 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
