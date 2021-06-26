@@ -638,7 +638,7 @@ section {
 /* App Section
 --------------------------------*/
 #app{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/app-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/app-bg-main.jpeg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
