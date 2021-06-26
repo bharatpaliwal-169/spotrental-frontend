@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/big_bg.png) top center;
+  background: url(../img/main-bg.jpeg)  center;
   background-size: cover;
 }
 
@@ -113,7 +113,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f3f3f3;
   display: table-cell;
   margin: 0;
   padding: 0;
