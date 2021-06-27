@@ -2,6 +2,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 body {
   background: #fff;
   color: #666666;
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.35);
   color: #f3f3f3;
   display: table-cell;
   margin: 0;
@@ -223,12 +224,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  /* color: #2E3C5D!important; */
+  color: #fff;
 }
 
 #header .logo a {
+  /* color: #2E3C5D; */
   color: #fff;
 }
 
@@ -801,6 +805,19 @@ section {
   color: #ccc;
 }
 
+#footer .social-icons{
+  display: flex;
+  list-style-type: none;
+  float: right;
+}
+#footer .social-icons li {
+  margin-left: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+#footer .social-icons .bi {
+  color: #fff;
+}
 
 /* design btn and scrollbar  */
 textarea:hover, 
@@ -835,4 +852,13 @@ label:focus,
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+
+.main-logo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px!important;
+  color: #2E3C5D!important;
 }
